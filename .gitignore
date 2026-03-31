@@ -1,0 +1,13 @@
+# Pliki tymczasowe i blokady
+*.lck
+*-backups/
+*auto_saved_files#
+
+# Cache bibliotek i lokalne ustawienia
+fp-info-cache
+*.kicad_prl
+
+# Wyniki symulacji i zipy
+*.wbk
+*.zip
+_autosave*
