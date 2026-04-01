@@ -1,0 +1,6 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"C1, C3";"C_0402_1005Metric";2;"100n";;;
+2;"C2, C4, C5";"C_Elec_6.3x7.7";3;"22u";;;
+3;"J1";"USB_Micro-B_Molex_47346-0001";1;"USB_B_Micro";;;
+4;"J2";"TerminalBlock_Phoenix_MKDS-3-2-5.08_1x02_P5.08mm_Horizontal";1;"Screw_Terminal_01x02";;;
+5;"U1";"TO-252-3_TabPin2";1;"AMS1117CD-3.3";;;

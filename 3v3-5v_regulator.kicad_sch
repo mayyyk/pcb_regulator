@@ -1467,7 +1467,17 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Dla 100nF 0402 - mniejsze, muszą być jak najbliżej U1.\nDla 22uF większe."
+	(text "GND Fill Zone, żeby:\n- zmniejszyć rezystancję.\n- filtrować - 2 warstwy miedzi działają jak kondensator\n- oddawanie ciepła\n- łatwiejsza fabrykacja, bo nie trzeba usuwać miedzi kwasem"
+		(exclude_from_sim no)
+		(at 166.624 115.062 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2a07802d-8007-4ec6-b660-be44cf67eb71")
+	)
+	(text "Dla 100nF 0402 - mniejsze, muszą być jak najbliżej U1 - sprzęgają wysokie Freq do masy\nDla 22uF większe - magazyny energii, stabilizacja napięcia przy skokach poboru prądu.\n"
 		(exclude_from_sim no)
 		(at 153.67 87.63 0)
 		(effects
@@ -1476,6 +1486,16 @@
 			)
 		)
 		(uuid "6dc10237-9a2f-4fc5-87f9-2f14bf28d2bd")
+	)
+	(text "Thermal relief:\n- łatwe lutowanie\n- 4 mostki na pad - zapobiega odprowadzaniu ciepła z lutownicy\n- wyższa indukcyjność i rezystancja\n- standard THT\n\nSolid:\n- trudne lutowanie\n- do padów odprowadzających ciepło"
+		(exclude_from_sim no)
+		(at 165.608 132.842 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8f93296c-31b1-4894-b109-789316235ba5")
 	)
 	(junction
 		(at 165.1 107.95)
